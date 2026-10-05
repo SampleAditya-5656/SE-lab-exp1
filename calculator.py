@@ -35,7 +35,7 @@ def calculator():
         choice = input("Choose an option (1-5): ")
 
         if choice == "5":
-            print("\nThank you for using the calculator!")
+            print("\nCalculator Terminated Successfully!")
             break
 
         if choice not in ["1", "2", "3", "4"]:
